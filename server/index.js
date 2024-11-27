@@ -13,7 +13,7 @@ const schemaData = mongoose.Schema(
   {
     name: String,
     email: String,
-    mobile: Number,
+    mobile: String,
   },
   {
     timestamps: true,
