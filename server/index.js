@@ -66,6 +66,7 @@ app.delete("/delete/:id", async (req, res) => {
   });
 });
 
+// mongoose connect
 mongoose
   .connect("mongodb://localhost:27017/crudoperation")
   .then(() => {
